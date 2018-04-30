@@ -75,3 +75,5 @@ int main()
 //- [x] Move function redef: newsize vs oldsize -> new index -> find()
 //- [x] Print warning if word limit has been reached
 //- [x] Figure out the size of hashtable -> O(1) vs O(N) vs memoory usage
+
+// test changes
