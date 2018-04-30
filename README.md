@@ -1,4 +1,4 @@
 # IJC
 The C Programming Language
 
-DU2 - hashtable, tail
+DU2 - hash table, tail
