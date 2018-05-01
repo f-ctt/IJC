@@ -98,7 +98,7 @@ void read_lines(FILE *file, c_buffer_t *buffer)
     while( fgets(buffer->lines[tail], DEFAULT_LINE_LEN, file) !=  NULL )
     {
         if( !limit_breached )
-            if( strlen(buffer->lines[tail]) >= DEFAULT_LINE_LEN ) // strlen stops at '\0' -> if last char not '\0', limit has been reached
+            if( strlen(buffer->lines[tail]) >= DEFAULT_LINE_LEN ) // strlen stops at '\0' -> if last char not '\0', limit's breached
             {
                 fprintf(stderr, "Line limit breached - (%i chars, including null-char). Continuation with this limit", DEFAULT_LINE_LEN);
                 limit_breached = true;
